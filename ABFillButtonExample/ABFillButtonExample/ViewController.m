@@ -29,9 +29,12 @@
 {
     [super viewWillAppear:animated];
     
+    //If we want to add shadows and a grow up effect when user press the button
     [self.playButton configureButtonWithHightlightedShadowAndZoom:YES];
+    
+    //If we want to empty the button with user pressing
     [self.playButton setEmptyButtonPressing:YES];
-    [self.playButton setTitle:@"" forState:UIControlStateNormal];
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -42,6 +45,7 @@
 
 - (IBAction)playButtonPressed:(id)sender
 {
+    //If we want to empty the button with every press
 //    _numberOfPulses++;
 //    [self.playButton setFillPercent:1-(_numberOfPulses*0.1)];
 //    

@@ -1,0 +1,46 @@
+Información de una película
+	Nombre
+	Fecha
+	Escenas
+	Autor + cita
+	ImageLarge para mainscreen
+	ImageMedium para tarjeta
+
+	Frases
+		Autor (Nombre + Images)
+		Cita
+
+	Escenas
+		Imagen
+		Descripcion
+
+Películas
+o	Gladiator
+o	Pulp Fiction
+o	El Padrino
+o	La chaqueta metálica
+	Lo que el viento se llevó
+	CasaBlanca
+	La lista de shindler
+o	Amelie
+	Resorvoir Dog
+	Pretty woman
+o	American History X
+o	El Silencio de los Corderos
+o	El exorcista
+	Saw I
+	Dracula de Bran Stoker
+	La Milla Verde
+o	Snach, Cerdos y Diamantes
+o	Watchmen
+o	Matrix
+o	StarWars
+	300
+	Inception
+	Terminator II
+	Die Hard
+	La Vida es Bella
+	Men In Black
+	
+
+
