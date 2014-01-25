@@ -22,10 +22,10 @@
 		3C685A031892D9C80005693F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C6859E21892D9C80005693F /* UIKit.framework */; };
 		3C685A0B1892D9C80005693F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C685A091892D9C80005693F /* InfoPlist.strings */; };
 		3C685A0D1892D9C80005693F /* ABFillButtonExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C685A0C1892D9C80005693F /* ABFillButtonExampleTests.m */; };
-		3C685A191892DA560005693F /* ABFillButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C685A181892DA560005693F /* ABFillButton.m */; };
 		3C685A251893FD770005693F /* shutdown.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C685A231893FD770005693F /* shutdown.png */; };
 		3C685A261893FD770005693F /* shutdown@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C685A241893FD770005693F /* shutdown@2x.png */; };
 		3C685A28189410240005693F /* bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C685A27189410240005693F /* bg@2x.png */; };
+		3C685A2C189414C90005693F /* ABFillButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C685A2B189414C90005693F /* ABFillButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,11 +59,11 @@
 		3C685A081892D9C80005693F /* ABFillButtonExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ABFillButtonExampleTests-Info.plist"; sourceTree = "<group>"; };
 		3C685A0A1892D9C80005693F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3C685A0C1892D9C80005693F /* ABFillButtonExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABFillButtonExampleTests.m; sourceTree = "<group>"; };
-		3C685A171892DA560005693F /* ABFillButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABFillButton.h; sourceTree = "<group>"; };
-		3C685A181892DA560005693F /* ABFillButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABFillButton.m; sourceTree = "<group>"; };
 		3C685A231893FD770005693F /* shutdown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shutdown.png; sourceTree = "<group>"; };
 		3C685A241893FD770005693F /* shutdown@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shutdown@2x.png"; sourceTree = "<group>"; };
 		3C685A27189410240005693F /* bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg@2x.png"; sourceTree = "<group>"; };
+		3C685A2A189414C90005693F /* ABFillButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABFillButton.h; sourceTree = "<group>"; };
+		3C685A2B189414C90005693F /* ABFillButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABFillButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +93,7 @@
 		3C6859D21892D9C80005693F = {
 			isa = PBXGroup;
 			children = (
-				3C685A161892DA560005693F /* ABFillButton */,
+				3C685A29189414C90005693F /* ABFillButton */,
 				3C6859E41892D9C80005693F /* ABFillButtonExample */,
 				3C685A061892D9C80005693F /* ABFillButtonExampleTests */,
 				3C6859DD1892D9C80005693F /* Frameworks */,
@@ -166,15 +166,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		3C685A161892DA560005693F /* ABFillButton */ = {
-			isa = PBXGroup;
-			children = (
-				3C685A171892DA560005693F /* ABFillButton.h */,
-				3C685A181892DA560005693F /* ABFillButton.m */,
-			);
-			path = ABFillButton;
-			sourceTree = "<group>";
-		};
 		3C685A1A1892DCB60005693F /* assets */ = {
 			isa = PBXGroup;
 			children = (
@@ -183,6 +174,16 @@
 				3C685A241893FD770005693F /* shutdown@2x.png */,
 			);
 			path = assets;
+			sourceTree = "<group>";
+		};
+		3C685A29189414C90005693F /* ABFillButton */ = {
+			isa = PBXGroup;
+			children = (
+				3C685A2A189414C90005693F /* ABFillButton.h */,
+				3C685A2B189414C90005693F /* ABFillButton.m */,
+			);
+			name = ABFillButton;
+			path = ../ABFillButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,10 +287,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C685A191892DA560005693F /* ABFillButton.m in Sources */,
 				3C6859F81892D9C80005693F /* ViewController.m in Sources */,
 				3C6859EF1892D9C80005693F /* AppDelegate.m in Sources */,
 				3C6859EB1892D9C80005693F /* main.m in Sources */,
+				3C685A2C189414C90005693F /* ABFillButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
