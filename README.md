@@ -5,12 +5,12 @@ An UIButton subclass that allows you to represent a fill porcentage stylishly.
 
 ## Instalation
 
-You only have to copy the ABFillButton to your proyect.
+You only have to copy the ABFillButton folder to your project.
 
 ## Usage
 
 - Init the ABFillButton like a regular UIButton
-- Add the delegate if we want to be warning when the button is empty:
+- Add the delegate if we want to be notified when the button is empty:
 
         - (void)buttonIsEmpty:(ABFillButton *)button
         {
@@ -21,7 +21,7 @@ You only have to copy the ABFillButton to your proyect.
 ## Configuration
 
 There are two main ways of use ABFillButton:
-- Reducing by yourself the fill percentage through a regular IBAction:
+- Reducing by yourself the fill percentage through a regular IBAction, for example:
   
         - (IBAction)playButtonPressed:(id)sender
         {
