@@ -1,7 +1,7 @@
 ABFillButton
 ============
 
-An UIButton subclass that allows you to represent a fill porcentage stylishly.
+An UIButton subclass that allows you to represent a fill percentage stylishly.
 
 ## Instalation
 
