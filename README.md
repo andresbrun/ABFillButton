@@ -1,16 +1,16 @@
 ABFillButton
 ============
 
-An UIButton subclass that allows you to represent a fill percentage stylishly.
+An `UIButton` subclass that allows you to represent a fill percentage stylishly.
 
-## Instalation
+## Installation
 
 You only have to copy the ABFillButton folder to your project.
 
 ## Usage
 
-- Init the ABFillButton like a regular UIButton
-- Add the delegate if we want to be notified when the button is empty:
+- Init the `ABFillButton` like a regular UIButton
+- Add the delegate if you want to be notified when the button is empty:
 
 ```objective-c
 - (void)buttonIsEmpty:(ABFillButton *)button
@@ -22,8 +22,8 @@ You only have to copy the ABFillButton folder to your project.
   
 ## Configuration
 
-There are two main ways of use ABFillButton:
-- Reducing by yourself the fill percentage through a regular IBAction, for example:
+There are two main ways of use `ABFillButton`:
+- Reducing by yourself the fill percentage through a regular `IBAction`, for example:
 
 ```objective-c  
 - (IBAction)playButtonPressed:(id)sender
@@ -59,4 +59,4 @@ Also we can add a grow up effect and shadow when user press the button using:
 
 ## License
 
-ABFillButton is available under the MIT license. See the LICENSE file for more info.
+**`ABFillButton`** is available under the MIT license. See the LICENSE file for more info.
